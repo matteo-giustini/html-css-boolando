@@ -6,3 +6,58 @@
     margin: 0;
     padding: 0;
 }
+/*------------------
+    TYPO
+------------------*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/*-------------
+  GENERAL
+-------------*/
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+.row {
+    display: flex;
+}
+.list-inline {
+    display: flex;
+    list-style: none;
+    gap: 10px
+}
+
+header a{
+    color: inherit;
+    text-decoration: none;
+}
+/*---------------
+HEADER
+---------------*/
+header {
+    background-color: #ff6900;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 60px;
+    color: #fff;
+}
+header .row {
+    height: 100%;
+    align-items: center;
+    padding: 0 10px;
+}
+.main-nav, .icons {
+    width: 20%;
+}
+.logo {
+    width: 60%;
+    text-align: center;
+}
+.logo img {
+    max-height: 30px;
+}
+.icons .list-inline {
+    justify-content: flex-end;
+}
